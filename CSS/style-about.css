@@ -18,6 +18,12 @@ body {
 .mapouter {
     display: flex;
     align-self: center;
+    padding-bottom: 2rem;
+}
+
+.video {
+    display: flex;
+    align-self: center;
     padding-bottom: 10rem;
 }
 
