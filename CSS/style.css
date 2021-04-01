@@ -1,95 +1,104 @@
+/*All HTML*/
 html {
     font-size: 16px;
 }
 
-
+/*All of the Body*/
 body {
     background-color: #c5c1c0;
 }
 
 
-/*Header*/
-
-#logo {
-    height: 40rem;
+/*Wrapper, centers content*/
+.wrapper {
+    display: flex;
+    justify-content: center;
 }
 
+/*Content, creates space between divs*/
+.wrapper div {
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 
-
-/*Content*/
 
 .left-content {
     float: left;
 }
+
 
 .right-content {
     float: right;
 }
 
 .text {
-    height: 20rem;
-    width: 20rem;
-    border-width: thin;
-    border-style: solid;
-    border-color: black;
+    height: 30rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    
+    
 }
 
 .image-container {
-    height:20rem;
-    width: 20rem;
-    border-width: thin;
-    border-style: solid;
-    border-color: black;
+    display: flex;
+    justify-content: center;
+    height:30rem;
+    width: 30rem;
+    justify-self: center;
 }
 
 img {
     max-width: 100%;
-    max-height: 100%;
+    
 }
 
 
 
 
+/* Footer, stays in place*/
 
-
-/* Footer */
-
-.footer {
+footer.fixed-footer {
     position:fixed;
     bottom:0;
     left:0;
     width:100%;
-    height: 90px;
-    background-color: #c5c1c0;
-  }
-  
-  .footer-text-left {
-      font-size:25px;
-      padding-left:40px;
-      float:left;
-      word-spacing:20px;
-    }
-    
-    a.menu:hover {
-      background-color:#f7ce3e;
-      font-size:20px;
-    }
-  
+    height: 4.5rem;
+    background-color: #1a2930;
+}
 
+.footer-text-left {
+    float:left;
+    font-size:1.5rem;
+    padding-left:2rem;
+    word-spacing:1.5rem;
+}
+    
+a.menu {
+    color: #f7ce3e;
+    text-decoration: none;
+    margin: auto;
+}
+
+a.menu:visited {
+    color:#c5c1c0;
+}
+
+
+.footer-content-right {
+    float :right;
+    padding-right:2rem;
+    margin:1rem;
+}
   
-  .footer-content-right {
-    padding-right:40px;
-    margin-top:20px;
-    float:right;
+.icon-style {
+    display: inline;
+    height:2.5rem;
+    margin-left:1rem;
   }
   
-  .icon-style {
-    height:40px;
-    margin-left:20px;
-    margin-top:5px;
-  }
-  
-  .icon-style:hover {
+.icon-style:hover {
     background-color:yellow;
-    padding:5px;
   }
