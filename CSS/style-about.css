@@ -10,9 +10,24 @@ body {
     font-size: 2rem;
     text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
+.mapouter {
+    display: flex;
+    align-self: center;
+    padding-bottom: 10rem;
+}
 
+h1 {
+    color: #f7ce3e;
+}
+
+h2 {
+    color: #f7ce3e;
+}
 
 
 /* Footer, stays in place*/
