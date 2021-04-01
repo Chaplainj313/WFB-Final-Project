@@ -1,0 +1,58 @@
+
+html {
+    font-size: 16px;
+    background-image: url(../Images/macbook-and-coffee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+/* Footer, stays in place*/
+
+footer.fixed-footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 4.5rem;
+    background-color: #1a2930;
+}
+
+.footer-text-left {
+    float:left;
+    font-size:1.5rem;
+    padding-left:2rem;
+    word-spacing:1.5rem;
+}
+    
+a.menu {
+    color: #f7ce3e;
+    text-decoration: none;
+    margin: auto;
+}
+
+a.menu:visited {
+    color:#c5c1c0;
+}
+
+
+.footer-content-right {
+    float :right;
+    padding-right:2rem;
+    margin:1rem;
+}
+  
+.icon-style {
+    display: inline;
+    height:2.5rem;
+    margin-left:1rem;
+  }
+  
+.icon-style:hover {
+    background-color:yellow;
+  }

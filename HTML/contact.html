@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="../CSS/style-contact-form.css">
 </head>
 <body>
     
     <div class="container">
-        <h3>Contact Form</h3>
+        <h1>Next Step Contact Form</h1>
         <form action="#" name="contact_form">
             <label for="first_name">First Name</label>
             <input name="first_name" type="text" required placeholder="John"/>
@@ -21,14 +22,27 @@
             <input name="email" type="email" required placeholder="you@domain.com"/>
             <br>
             <label for="message">Message</label><br>
-            <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+            <textarea name="message" cols="50" rows="20" placeholder="Enter your message here ..." required> </textarea>
             <div class="center">
                 <input type="submit" value="Submit">
             </div>
         </form>	
     </div>
 
-
+     <!--Footers-->
+     <footer class="fixed-footer">
+        <p class="footer-text-left">
+            <a href="index.html" class="menu">Home</a>
+            <a href="./HTML/about.html" class="menu">About</a>
+            <a href="./HTML/contact.html" class="menu">Contact</a>
+            <a href="./HTML/legal-stuff.html" class="menu">Legal</a>
+        </p>
+        <div class="footer-content-right">
+            <a href="https://github.com/example"><img src="../Images/github.jpeg" class="icon-style" alt="Github icon"></a>
+            <a href="https://www.twitter.com/example"><img src="../Images/twitter.jpeg" class="icon-style" alt="Twitter icon"></a>
+            <a href="https://www.gmail.com"><img src="../Images/email.jpeg" class="icon-style" alt="Emailicon"></a>
+        </div>
+    </footer>
 
 </body>
 </html>
